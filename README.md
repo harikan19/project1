@@ -1,4 +1,4 @@
-# Project 1: Comparison of Relational and Graph Databases (Airports & Movies)
+# Project 1: Comparison of Relational and Graph Databases (PostgreSQL & ArangoDB)
 
 ##  Overview
 This project compares the performance, usability, and suitability of **Relational Databases (PostgreSQL)** and **Graph Databases (ArangoDB)**.  
