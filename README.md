@@ -51,7 +51,8 @@ The final goal: **Analyze and conclude in which scenarios relational databases o
 7. **List all movies acted in by Tom Hanks.**
 8. **Average movie budget grouped by genre.**
 9. **Top 5 most popular movies (by popularity score).**
-10. **Find the top 5 movies with the highest budget.**
+10. **Find the top 5 directors who directed the most movie.**
+11. **Find the top 5 movies with the highest budget.**
 
 ### Airports Dataset
 1. **List all airlines that fly from a given airport (e.g., JFK).**
