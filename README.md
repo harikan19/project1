@@ -77,7 +77,6 @@ The final goal: **Analyze and conclude in which scenarios relational databases o
   - Traversal queries (actors working together, flight path searches) were simpler and faster.
   - More natural representation for networks (actors & movies, airports & routes).
 
----
 
 ## Project Structure
 
