@@ -141,8 +141,10 @@ project1/
 │ ├── Top_5_most_popular_movies.aql
 │ └── Top_5_highest_budget_movies.aql
 │
-│── output/ # Screenshots or results of queries
+│── ## Query Results (Screenshots)
+---
+
 │
 │── load_actors.py # Helper Python script for loading data
-│── README.md # Project documentatio
+│── README.md # Project documentation
 
