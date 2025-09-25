@@ -66,10 +66,6 @@ The final goal: **Analyze and conclude in which scenarios relational databases o
 10. **Find the top 3 country pairs with the most routes between them.**
 
 
-(Queries were written in **PostgreSQL SQL** and **ArangoDB AQL** for side-by-side comparison.)
-
----
-
 ## Results & Observations
 - **Relational DB (Postgres):**
   - Better suited for structured queries, aggregations, and tabular operations.
@@ -83,6 +79,6 @@ The final goal: **Analyze and conclude in which scenarios relational databases o
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 
