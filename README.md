@@ -79,5 +79,69 @@ The final goal: **Analyze and conclude in which scenarios relational databases o
 
 
 ## Project Structure
-
+project1/
+│── Airport_data/ # Raw and cleaned datasets for Airports
+│ ├── airlines.csv
+│ ├── airports.csv
+│ ├── airports_clean.csv
+│ ├── routes.csv
+│ ├── routes_clean.csv
+│ └── routes_final.csv
+│
+│── Movies_data/ # Raw datasets for Movies
+│ ├── tmdb_5000_movies.csv
+│ └── tmdb_5000_credits.csv
+│
+│── Airports_SQL/ # PostgreSQL queries for Airports dataset
+│ ├── Airlines_between_two_countries.sql
+│ ├── Airlines_from_given_airport.sql
+│ ├── Airport_pairs_sharing_multiple_airlines.sql
+│ ├── Airports_reachable_within_2_hops.sql
+│ ├── Average_destinations_per_airline.sql
+│ ├── Count_direct_routes_between_airports.sql
+│ ├── Count_distinct_destinations_per_airline.sql
+│ ├── Top_3_country_pairs_with_most_routes.sql
+│ ├── Top_5_busiest_airports.sql
+│ └── Top_5_inbound_destination_airports.sql
+│
+│── Airports_AQL/ # ArangoDB queries for Airports dataset
+│ ├── Airlines_between_two_countries.aql
+│ ├── Airlines_from_given_airport.aql
+│ ├── Airport_pairs_sharing_multiple_airlines.aql
+│ ├── Airports_reachable_within_2_hops.aql
+│ ├── Average_destinations_per_airline.aql
+│ ├── Count_direct_routes_between_airports.aql
+│ ├── Count_distinct_destinations_per_airline.aql
+│ ├── Top_3_country_pairs_with_most_routes.aql
+│ ├── Top_5_busiest_airports.aql
+│ └── Top_5_inbound_destination_airports.aql
+│
+│── Movies_SQL/ # PostgreSQL queries for Movies dataset
+│ ├── List_all_actors_in_movie.sql
+│ ├── Movies_by_actor.sql
+│ ├── Actors_who_worked_together.sql
+│ ├── Action_movies_after_2010.sql
+│ ├── Number_of_actors_per_movie.sql
+│ ├── Top_5_actors_highest_movies.sql
+│ ├── Movies_by_Tom_Hanks.sql
+│ ├── Average_budget_by_genre.sql
+│ ├── Top_5_most_popular_movies.sql
+│ └── Top_5_highest_budget_movies.sql
+│
+│── Movies_AQL/ # ArangoDB queries for Movies dataset
+│ ├── List_all_actors_in_movie.aql
+│ ├── Movies_by_actor.aql
+│ ├── Actors_who_worked_together.aql
+│ ├── Action_movies_after_2010.aql
+│ ├── Number_of_actors_per_movie.aql
+│ ├── Top_5_actors_highest_movies.aql
+│ ├── Movies_by_Tom_Hanks.aql
+│ ├── Average_budget_by_genre.aql
+│ ├── Top_5_most_popular_movies.aql
+│ └── Top_5_highest_budget_movies.aql
+│
+│── output/ # Screenshots or results of queries
+│
+│── load_actors.py # Helper Python script for loading data
+│── README.md # Project documentatio
 
